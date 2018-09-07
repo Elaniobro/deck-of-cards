@@ -10,4 +10,9 @@
   * `nodemon app.js`
 * Open your favortie web browser and navigate to your [localhost](http://localhost:3000)
 
-
+### ToDo:
+- [ ] Add jest unit test
+- [ ] Add Webpack
+  - [ ] Add support for less
+- [ ] Add eslint
+- [ ] Add stylelint
