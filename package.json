@@ -22,9 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "chalk": "^2.4.1",
-    "express-handlebars": "^3.0.0",
-    "jest": "^23.5.0",
-    "webpack": "^4.17.1"
+    "express-handlebars": "^3.0.0"
   },
   "dependencies": {
     "express": "^4.16.3",
