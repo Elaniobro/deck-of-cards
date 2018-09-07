@@ -1,0 +1,55 @@
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.cards__suit--spades,
+.cards__suit--clubs {
+    color: #000;
+}
+
+.cards__suit--hearts,
+.cards__suit--diamonds {
+    color: #f00;
+}
+
+.cards__card--suit-spades:before {
+    content: '♠️'
+}
+
+.cards__card--suit-clubs:before {
+    content: '♣️'
+}
+
+.cards__card--suit-hearts:before {
+    content: '♥️'
+}
+
+.cards__card--suit-diamonds:before {
+    content: '♦️'
+}
+
+.cards__card {
+    height: 300px;
+    width: 175px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: grid;
+    border-radius: 10px;
+}
+
+.cards__type-wrapper--invert {
+    transform: rotate(180deg);
+    align-self: flex-end;
+}
+
+
+.cards__card--suit-spades,
+.cards__card--suit-clubs,
+.cards__card--suit-spades,
+.cards__card--suit-clubs {
+
+}
+
+

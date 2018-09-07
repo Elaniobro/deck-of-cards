@@ -1,0 +1,33 @@
+{
+  "name": "deck-of-cards",
+  "version": "1.0.0",
+  "description": "deck of cards and methods",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "deck",
+    "of",
+    "cards",
+    "playing",
+    "cards",
+    "shuffle"
+  ],
+  "author": "Elan Trybuch",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "express-handlebars": "^3.0.0",
+    "jest": "^23.5.0",
+    "webpack": "^4.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
